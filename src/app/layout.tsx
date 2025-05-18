@@ -1,3 +1,6 @@
+//? STYLESHEET | Global CSS (Tailwind v4+)
+import "@/styles/css/globals.css";
+
 export default function RootLayout({
   children,
 }: {
@@ -7,5 +10,5 @@ export default function RootLayout({
     <html lang="en">
       <body>{children}</body>
     </html>
-  )
+  );
 }
